@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h2 class="mb-0"><i class="fas fa-sign-in-alt"></i> Đăng nhập</h2>
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <div class="d-grid gap-2 mt-4">
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-sign-in-alt"></i> Đăng nhập
+                </button>
+            </div>
+        </form>
+        <div class="text-center mt-4">
+            <small class="text-muted">
+                Chưa có tài khoản? <a href="{% url 'register' %}">Đăng ký ngay</a>
+            </small>
+        </div>
+    </div>
+</div>
+{% endblock content %}
