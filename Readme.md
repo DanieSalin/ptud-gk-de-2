@@ -27,7 +27,6 @@ Hệ thống Quản lý Công việc là một ứng dụng web được xây d�
 ### Giao diện
 - Thiết kế responsive
 - Giao diện thân thiện, dễ sử dụng
-- Hỗ trợ dark/light mode
 - Hiệu ứng và animation đẹp mắt
 
 ## Công nghệ sử dụng
