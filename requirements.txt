@@ -1,0 +1,21 @@
+# Django và các thư viện cốt lõi
+Django==5.1.7
+django-crispy-forms==2.1
+crispy-bootstrap5==2024.2
+Pillow==10.2.0
+
+# Công cụ phát triển
+python-dotenv==1.0.1
+django-debug-toolbar==4.3.0
+
+# Bảo mật
+django-password-validators==1.7.3
+
+# Định dạng và xử lý dữ liệu
+pytz==2024.1
+sqlparse==0.4.4
+
+# Môi trường và tiện ích
+asgiref==3.7.2
+tzdata==2024.1
+whitenoise==6.6.0
